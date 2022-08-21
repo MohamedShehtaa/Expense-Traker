@@ -8,6 +8,7 @@ export default function NewExpense( { onExpenseData } ) {
     }
     return (
         <div className='new-expense'>
+            
             <ExpenseForm onSubmitForm={ sumbitFormDatahandler } />
         </div>
     )
